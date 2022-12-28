@@ -1,0 +1,21 @@
+.footer {
+  position: relative;
+  background-image: url("/images/website__background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.signature {
+  position: relative;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px;
+}
+.signature span {
+  color: green;
+  padding: 5px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 1px solid #dcca87;
+}

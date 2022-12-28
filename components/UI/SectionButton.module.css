@@ -1,0 +1,22 @@
+.button {
+  align-self: flex-start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 32px;
+  font-family: var(--font-family-Cormorant);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: var(--line-height-text);
+  letter-spacing: 0.04em;
+  color: var(--color-section-button);
+  background-color: var(--color-gold);
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.button:hover {
+  color: var(--color-gold);
+  background-color: var(--color-section-button);
+  border: 1px solid var(--color-gold);
+}

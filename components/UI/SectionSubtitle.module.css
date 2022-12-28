@@ -1,0 +1,18 @@
+.subtitle {
+  margin-bottom: 8px;
+}
+.subtitle p {
+  font-family: var(--font-family-Cormorant);
+  font-weight: 700;
+  font-size: 23px;
+  line-height: var(--line-height-title);
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: var(--color-white);
+  margin-bottom: 8px;
+}
+
+.subtitle img {
+  width: 40px;
+  height: 9px;
+}

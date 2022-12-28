@@ -1,0 +1,38 @@
+.item {
+  position: relative;
+  width: 301px;
+  height: 447px;
+  border: 1px solid var(--color-light-yellow);
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    207.55deg,
+    rgba(0, 0, 0, 0.75) 1.5%,
+    rgba(0, 0, 0, 0.64) 98.62%
+  );
+  border: 2px solid rgba(220, 202, 135, 0.2);
+  opacity: 0;
+  transition: var(--transition);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item:hover .overlay {
+  opacity: 1;
+}
+.item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.icon {
+  width: 44px;
+  height: 44px;
+  color: var(--color-light-yellow);
+}
