@@ -48,6 +48,7 @@
   text-transform: capitalize;
   color: var(--color-gold);
   border-bottom: 2px solid var(--color-black);
+  cursor: pointer;
   transition: var(--transition);
 }
 .title:hover {
@@ -62,6 +63,7 @@
   color: var(--color-gold);
 }
 .bottom__link {
+  cursor: pointer;
   transition: var(--transition);
 }
 .bottom__link:hover {

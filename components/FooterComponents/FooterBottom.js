@@ -28,15 +28,9 @@ function FooterBottom() {
               <img src="/images/website__spoon-right.png" alt="Spoon Icon" />
             </span>
             <div className={styles["social-links"]}>
-              <a href="#">
-                <FaFacebookF className={styles["link__icon"]} />
-              </a>
-              <a href="#">
-                <TfiTwitter className={styles["link__icon"]} />
-              </a>
-              <a href="#">
-                <FaInstagram className={styles["link__icon"]} />
-              </a>
+              <FaFacebookF className={styles["link__icon"]} />
+              <TfiTwitter className={styles["link__icon"]} />
+              <FaInstagram className={styles["link__icon"]} />
             </div>
           </div>
         </div>

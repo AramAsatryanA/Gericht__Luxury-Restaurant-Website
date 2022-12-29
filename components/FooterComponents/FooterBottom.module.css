@@ -60,6 +60,7 @@
   width: 24px;
   height: 24px;
   color: var(--color-light-yellow);
+  cursor: pointer;
   transition: var(--transition);
 }
 .item__main .social-links .link__icon:hover {

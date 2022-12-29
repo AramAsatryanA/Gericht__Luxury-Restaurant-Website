@@ -39,42 +39,42 @@ function TitlesPart() {
     >
       <div className="section__overlay"></div>
       <div className={`container ${styles["title-part__container"]}`}>
-        <ul className={styles["menu__links"]}>
+        <ul className={styles["menu__buttons"]}>
           <li>
-            <a
-              href="#"
+            <button
               ref={barMenuRef}
               style={
                 barMenuRef.current === linkActive ? activeLinkStyles : null
               }
+              className={styles["menu__btn"]}
               onMouseEnter={changeActiveLinkHandler}
             >
               Bar Menu
-            </a>
+            </button>
           </li>
           <li>
-            <a
-              href="#"
+            <button
               ref={foodMenuRef}
               style={
                 foodMenuRef.current === linkActive ? activeLinkStyles : null
               }
+              className={styles["menu__btn"]}
               onMouseEnter={changeActiveLinkHandler}
             >
               Food Menu
-            </a>
+            </button>
           </li>
           <li>
-            <a
-              href="#"
+            <button
               ref={dessertsMenuRef}
               style={
                 dessertsMenuRef.current === linkActive ? activeLinkStyles : null
               }
+              className={styles["menu__btn"]}
               onMouseEnter={changeActiveLinkHandler}
             >
               Desserts Menu
-            </a>
+            </button>
           </li>
         </ul>
       </div>

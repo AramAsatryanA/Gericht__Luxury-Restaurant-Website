@@ -21,14 +21,10 @@ function BlogsSectionItem(props) {
           <p className={styles.date}>{dateModified}</p>
           <p className={styles.author}>{author}</p>
         </div>
-        <a href="#" className={styles.title}>
-          {title}
-        </a>
+        <h3 className={styles.title}>{title}</h3>
         <p className="section__text-p">{text}</p>
         <div className={styles.bottom}>
-          <a href="#" className={styles["bottom__link"]}>
-            Read More
-          </a>
+          <span className={styles["bottom__link"]}>Read More</span>
         </div>
       </div>
     </li>

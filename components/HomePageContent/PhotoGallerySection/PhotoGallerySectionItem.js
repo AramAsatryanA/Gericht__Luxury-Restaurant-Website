@@ -7,9 +7,7 @@ function PhotoGallerySectionItem({ image }) {
     <li className={styles.item}>
       <img src={image} alt="Instagram Image" />
       <div className={styles.overlay}>
-        <a href="#">
-          <FaInstagram className={styles.icon} />
-        </a>
+        <FaInstagram className={styles.icon} />
       </div>
     </li>
   );

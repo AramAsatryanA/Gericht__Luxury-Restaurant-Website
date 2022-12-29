@@ -29,6 +29,7 @@ function AdditionalComponents() {
           boxShadow: "none",
           width: "50px",
           height: "110px",
+          bottom: "60px",
           zIndex: "999",
         }}
       />
